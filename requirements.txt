@@ -1,0 +1,14 @@
+# Core FastAPI stack
+fastapi
+uvicorn
+
+# Google Gemini / ADK
+google-generativeai
+google-adk
+
+# Environment variable loader
+python-dotenv
+
+# Optional: for type hints and modern Python typing support
+typing-extensions
+
