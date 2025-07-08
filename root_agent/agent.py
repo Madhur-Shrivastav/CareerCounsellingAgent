@@ -1,47 +1,45 @@
 from google.adk.agents import LlmAgent
-
 from .sub_agent.track_order_agent.agent import track_order_agent
 from .sub_agent.return_product_agent.agent import return_product_agent
 from .sub_agent.raise_complaint_agent.agent import raise_complaint_agent
 from .sub_agent.cancel_order_agent.agent import cancel_order_agent  
-
 from google.adk.agents.callback_context import CallbackContext
 from google.genai import types
 from typing import Optional
-import sqlite3
+from db import connect_to_sqlite, close_sqlite_connection
 
-DB_PATH = "D:\Desktop\Virtuon\Customer_care_agenticAI\customer_support.db"  # or relative path if you're testing locally
 
 async def beforeagentcallback(callback_context: CallbackContext) -> Optional[types.Content]:
-    user_id = callback_context.state.get("user_id")
+    user_id = callback_context.state.get("user_id", "1")
+
     if not user_id:
         raise ValueError("Missing user_id in state")
 
-    conn = sqlite3.connect(DB_PATH)
-    conn.row_factory = sqlite3.Row
+    conn = connect_to_sqlite()
+    if not conn:
+        raise RuntimeError("Failed to connect to SQLite")
+
     cursor = conn.cursor()
 
-    # Fetch user
-    cursor.execute("SELECT * FROM users WHERE id = ?", (user_id,))
-    user = cursor.fetchone()
-    if not user:
-        raise ValueError(f"No user found with ID: {user_id}")
+    try:
+        cursor.execute("SELECT * FROM users WHERE id = ?", (user_id,))
+        user = cursor.fetchone()
+        if user:
+            callback_context.state["user_name"] = user["name"]
+            callback_context.state["user_email"] = user["email"]
 
-    # Update state
-    callback_context.state["user_name"] = user["name"]
-    callback_context.state["user_email"] = user["email"]
+        cursor.execute("SELECT * FROM orders WHERE user_id = ?", (user_id,))
+        orders = [dict(row) for row in cursor.fetchall()]
+        callback_context.state["orders"] = orders
 
-    # Fetch orders
-    cursor.execute("SELECT * FROM orders WHERE user_id = ?", (user_id,))
-    callback_context.state["orders"] = [dict(row) for row in cursor.fetchall()]
+    finally:
+        cursor.close()
+        close_sqlite_connection(conn)
 
-    conn.close()
     return None
 
 
-
-# Create the root customer support agent
-customer_support_agent = LlmAgent(
+root_agent = LlmAgent(
     name="customer_support",
     model="gemini-2.0-flash",
     description="Customer care assistant agent for an e-commerce platform, capable of resolving common post-purchase service requests.",
@@ -119,5 +117,5 @@ Always tailor your responses to the user’s recent purchases and issues. Use st
         cancel_order_agent,
     ],
     tools=[],
-    before_agent_callback= beforeagentcallback
+    before_agent_callback = beforeagentcallback
 )

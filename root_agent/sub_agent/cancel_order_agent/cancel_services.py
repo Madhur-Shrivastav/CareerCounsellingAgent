@@ -1,0 +1,48 @@
+from datetime import datetime
+from db import connect_to_sqlite, close_sqlite_connection
+from google.adk.agents.callback_context import CallbackContext
+
+def cancel_order(order_id: str, callback_context: CallbackContext) -> str:
+    """
+    Cancels an order based on order ID.
+    """
+    cancellable_statuses = ["Pending", "Processing"]
+    matched_order = None
+
+    for order in callback_context.state.get("orders", []):
+        if str(order["order_id"]) == str(order_id):  
+            matched_order = order
+            break
+
+    if not matched_order:
+        return "Provided order ID couldn't be matched."
+
+    if matched_order["status"] not in cancellable_statuses:
+        return (
+            f"Order '{matched_order['product']}' is already "
+            f"{matched_order['status'].lower()} and cannot be canceled."
+        )
+
+    matched_order["status"] = "Cancelled"
+    update_order_status_in_db(matched_order["order_id"], "Cancelled")
+
+    interaction_log = {
+        "timestamp": datetime.now().isoformat(),
+        "type": "cancel_order",
+        "order_id": matched_order["order_id"],
+        "message": f"Order '{matched_order['product']}' was canceled."
+    }
+
+    return f"Order '{matched_order['product']}' has been successfully canceled."
+
+
+
+def update_order_status_in_db(order_id: str, status: str):
+    conn = connect_to_sqlite()
+    cursor = conn.cursor()
+    try:
+        cursor.execute("UPDATE orders SET status = ? WHERE id = ?", (status, order_id))
+        conn.commit()
+    finally:
+        cursor.close()
+        close_sqlite_connection(conn)
