@@ -1,4 +1,5 @@
 from google.adk.agents import Agent
+from google.adk.tools import FunctionTool
 from .cancel_services import cancel_order
 
 cancel_order_agent = Agent(
@@ -12,8 +13,7 @@ You help users cancel their orders on the e-commerce platform.
 - Identify the order the user wants to cancel based on order ID, product name, or delivery status.
 - Only allow cancellations if the order status is not yet 'Shipped', 'Out for delivery', or 'Delivered'.
 - Update the order status in `state` to reflect the cancellation after calling 'cancel_order' method provided as a tool.
-- The method 'cancel_order' accepts one argument: order_id (string).
-- The `state` is automatically provided during execution; you do not need to pass it yourself.
+- The method 'cancel_order' accepts one argument: id (string).
 - Confirm with the user that the cancellation was successful.
 
 **Cancellation Policy:**
