@@ -1,3 +1,4 @@
+from uuid import uuid4
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from dotenv import load_dotenv
@@ -24,6 +25,7 @@ class ChatRequest(BaseModel):
     user_id: str
     message: str
 
+
 @app.post("/chat")
 async def chat(request: ChatRequest):
     try:
@@ -32,9 +34,9 @@ async def chat(request: ChatRequest):
             user_id=request.user_id,
             state={
                 "user_id": request.user_id,
-            }
+            },
+            # session_id=session_id
         )
-
         session_id = session.id
 
         await add_user_query_to_history(

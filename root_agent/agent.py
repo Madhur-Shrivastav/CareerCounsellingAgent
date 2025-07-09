@@ -25,6 +25,7 @@ async def beforeagentcallback(callback_context: CallbackContext) -> Optional[typ
         cursor.execute("SELECT * FROM users WHERE id = ?", (user_id,))
         user = cursor.fetchone()
         if user:
+            callback_context.state["user_id"] = user_id 
             callback_context.state["user_name"] = user["name"]
             callback_context.state["user_email"] = user["email"]
 
