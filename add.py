@@ -7,7 +7,7 @@ def add_order():
     # Example order to insert
     new_order = (
         1,  # user_id (must match a valid user ID in 'users' table)
-        "Omen HP laptop",  # product_name
+        "Iphone 13",  # product_name
         "Processing",   # status
         "2025-07-08",   # order_date
         "2025-07-12"    # delivery_date
