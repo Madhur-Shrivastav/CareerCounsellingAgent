@@ -1,4 +1,5 @@
 from google.adk.agents import Agent
+from .complaint_services import raise_complaint
 
 raise_complaint_agent = Agent(
     name="raise_complaint_agent",
@@ -20,12 +21,12 @@ You are responsible for handling complaints from customers related to their orde
 
 **Logging Complaint:**
 - Structure the complaint as a dictionary with:
+  - "user_id" 
   - "order_id" (if provided)
   - "description"
-  - "timestamp"
   - "status": set to "Pending"
-- Append the complaint to `state['complaints']` (create the list if not already present).
-- Also update `state['interaction_history']` with the complaint summary.
+  - "created_at": this the timestamp
+- Use the method 'raise_complaint' provided as a tool to raise complaint.
 
 **Response Format:**
 - Acknowledge the user's concern empathetically.
@@ -42,5 +43,6 @@ You: I'm really sorry to hear that. I’ve logged a complaint for the order "Blu
 - If it's not related to an order, still accept general complaints and mark `order_id` as `None`.
 
 Always respond in a professional, calm, and helpful tone.
-"""
+""",
+tools=[raise_complaint]
 )
