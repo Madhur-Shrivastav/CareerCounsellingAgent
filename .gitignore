@@ -8,6 +8,3 @@ __pycache__/
 
 # Environment variables
 .env
-
-# SQLite databases (optional)
-*.db
