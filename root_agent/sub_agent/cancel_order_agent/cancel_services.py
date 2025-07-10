@@ -36,9 +36,12 @@ def update_order_status_in_db(order_id: str, reason: str, user_id: int, product_
     request_date = datetime.now(timezone.utc).date().isoformat()
 
     try:
-        cursor.execute("DELETE FROM orders WHERE id = ?", (order_id,))
-        conn.commit()
+        # cursor.execute("DELETE FROM orders WHERE id = ?", (order_id,))
+        # conn.commit()
 
+        cursor.execute("UPDATE orders SET status = ? WHERE id = ?", ("Cancelled", order_id))
+        conn.commit()
+        
         cursor.execute("""
             INSERT INTO cancellations (id, user_id, order_id, product_name, reason, request_date)
             VALUES (?, ?, ?, ?, ?, ?)

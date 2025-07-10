@@ -7,10 +7,10 @@ def add_order():
     new_order = (
         str(uuid.uuid4()), 
         1, 
-        "Iphone 13",  
-        "Processing",  
-        "2025-07-08",   
-        "2025-07-14"    
+        "OnePlus Nord Buds",  
+        "Delivered",  
+        "2025-07-13",   
+        "2025-07-15"    
     )
 
     cursor.execute("""
