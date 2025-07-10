@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, timezone
 from db import connect_to_sqlite, close_sqlite_connection
 from google.adk.tools import ToolContext
 import uuid
@@ -24,26 +24,25 @@ def cancel_order(id: str, reason: str, tool_context: ToolContext) -> str:
             f"{matched_order['status'].lower()} and cannot be canceled."
         )
 
-    update_order_status_in_db(matched_order["id"], reason=reason)
+    update_order_status_in_db(matched_order["id"], reason=reason, user_id=tool_context.state["user_id"], product_name=matched_order['product_name'])
 
     return f"Order '{matched_order['product_name']}' has been successfully canceled."
 
 
-def update_order_status_in_db(order_id: str, reason: str):
+def update_order_status_in_db(order_id: str, reason: str, user_id: int, product_name: str):
     conn = connect_to_sqlite()
     cursor = conn.cursor()
     cancellation_id = str(uuid.uuid4())
-    request_date = datetime.utcnow().isoformat()
-    status = "Cancelled"
+    request_date = datetime.now(timezone.utc).date().isoformat()
 
     try:
         cursor.execute("DELETE FROM orders WHERE id = ?", (order_id,))
         conn.commit()
 
         cursor.execute("""
-            INSERT INTO cancellations (id, order_id, reason, request_date, status)
-            VALUES (?, ?, ?, ?, ?)
-        """, (order_id, order_id, reason, request_date, status))
+            INSERT INTO cancellations (id, user_id, order_id, product_name, reason, request_date)
+            VALUES (?, ?, ?, ?, ?, ?)
+        """, (cancellation_id, user_id, order_id, product_name, reason, request_date))
         conn.commit()
     finally:
         cursor.close()
