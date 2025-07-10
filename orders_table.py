@@ -7,10 +7,10 @@ def add_order():
     new_order = (
         str(uuid.uuid4()), 
         1, 
-        "OnePlus Nord Buds",  
-        "Delivered",  
-        "2025-07-13",   
-        "2025-07-15"    
+        "Iphone 14",  
+        "Processing",  
+        "2025-07-12",   
+        "2025-07-20"    
     )
 
     cursor.execute("""
@@ -61,3 +61,5 @@ def drop_and_recreate_order_table():
 
 # drop_and_recreate_order_table()
 add_order()
+
+
