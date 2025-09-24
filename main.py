@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 from google.adk.sessions import DatabaseSessionService
 from google.adk.runners import Runner
 from root_agent.agent import root_agent
-from utils import add_user_query_to_history, call_agent_async
 
 load_dotenv()
 
