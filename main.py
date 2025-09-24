@@ -35,7 +35,6 @@ async def chat(request: ChatRequest):
             state={
                 "user_id": request.user_id,
             },
-            # session_id=session_id
         )
         session_id = session.id
 

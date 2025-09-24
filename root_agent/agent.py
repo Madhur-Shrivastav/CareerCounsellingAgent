@@ -1,65 +1,42 @@
+import json
 from google.adk.agents import LlmAgent
-from .sub_agent.track_order_agent.agent import track_order_agent
-from .sub_agent.return_product_agent.agent import return_product_agent
-from .sub_agent.raise_complaint_agent.agent import raise_complaint_agent
-from .sub_agent.cancel_order_agent.agent import cancel_order_agent  
 from google.adk.agents.callback_context import CallbackContext
 from google.genai import types
 from typing import Optional
-from db import connect_to_sqlite, close_sqlite_connection
-
+# from db import connect_to_sqlite, close_sqlite_connection
+from .functions.fetch_user import fetch_user_details
+from .functions.fetch_questionnaire import fetch_user_questionnaire
+from .functions.generate_profile import generate_user_profile
 
 async def beforeagentcallback(callback_context: CallbackContext) -> Optional[types.Content]:
-    user_id = callback_context.state.get("user_id", "1")
-
-    if not user_id:
-        raise ValueError("Missing user_id in state")
-
-    conn = connect_to_sqlite()
-    if not conn:
-        raise RuntimeError("Failed to connect to SQLite")
-
-    cursor = conn.cursor()
-
-    try:
-        cursor.execute("SELECT * FROM users WHERE id = ?", (user_id,))
-        user = cursor.fetchone()
-        if user:
-            callback_context.state["user_id"] = user_id 
-            callback_context.state["user_name"] = user["name"]
-            callback_context.state["user_email"] = user["email"]
-
-        cursor.execute("SELECT * FROM orders WHERE user_id = ?", (user_id,))
-        orders = [dict(row) for row in cursor.fetchall()]
-        callback_context.state["orders"] = orders
-
-    finally:
-        cursor.close()
-        close_sqlite_connection(conn)
+    user_id = callback_context.state.get("user_id", "eab7924b-8391-49b7-9a77-6a9abc665e9f")
+    user_profile = callback_context.state.get("user_profile");
+    if not user_profile:
+        user_profile = json.loads(generate_user_profile(user_id=user_id))
+    user_list = fetch_user_details(user_id=user_id)
+    print(user_list)
+    if user_list:
+        user = user_list[0]
+        callback_context.state["user_id"] = user["id"]
+        callback_context.state["user_name"] = user["fullname"]
+        callback_context.state["user_email"] = user["email"]
+        callback_context.state["user_profile"] = user_profile
+    
+        questionnaire = fetch_user_questionnaire(user_id=user["id"])
+        print(questionnaire)
+        if questionnaire:
+            callback_context.state["questionnaire_responses"] = questionnaire[0]
 
     return None
 
 
+
 root_agent = LlmAgent(
-    name="customer_support",
+    name="career_counsellor",
     model="gemini-2.0-flash",
-    description="Customer care assistant agent for an e-commerce platform, capable of resolving common post-purchase service requests.",
+    description="Career counselling agent that helps users explore their strengths, interests, and suitable career paths.",
     instruction="""
-You are the primary customer service agent for an e-commerce platform.
-Your role is to help users with their service-related issues and delegate tasks to the appropriate specialized agents.
-
-**Core Capabilities:**
-
-1. Query Understanding & Delegation
-   - Understand user queries related to order tracking, returns, complaints, and cancellations.
-   - Based on the user’s intent, route the request to one of the four sub-agents.
-   - Use the available user and order information to personalize responses.
-
-2. State Management
-   - Track user interactions in `state['interaction_history']`.
-   - Monitor user's active and past orders in `state['orders']`.
-     - Each order has attributes like "id", "product_name", "status", "order_date", and "delivery_date".
-   - Maintain refund/cancellation eligibility logic using dates and order statuses.
+You are a career counsellor helping users explore their strengths, skills, and potential career paths based on their responses to a career questionnaire. 
 
 **User Information:**
 <user_info>
@@ -67,56 +44,28 @@ Name: {user_name}
 Email: {user_email}
 </user_info>
 
-**Order History:**
-<orders>
-{orders}
-</orders>
+**User's questionnaire responses:**
+<questionnaire>
+{questionnaire_responses}
+</questionnaire>
 
+**User's profile:**
+<user_profile>
+{user_profile}
+</user_profile>
 
-
-You have access to the following specialized agents:
-
-1. **Track Order Agent**
-   - Handles questions about current delivery status, expected delivery date, and order location.
-   - Route queries here if the user wants to know where their product is.
-   - delegate the task to 'track_order_agent'
-
-2. **Return Product Agent**
-   - Manages return requests for eligible orders.
-   - Returns are valid only within 10 days after delivery.
-   - Requires the order ID, reason for return, and product condition.
-   - delegate the task to 'return_product_agent'
-
-
-3. **Raise Complaint Agent**
-   - Accepts user complaints about damaged products, service delays, or delivery issues.
-   - Collects detailed feedback and logs complaint with a reference number.
-   - delegate the task to 'raise_complaint_agent'
-
-
-4. **Cancel Order Agent**
-   - Processes cancellation requests before the product is shipped.
-   - Verify if the order is in a cancellable state before proceeding.
-   - delegate the task to 'cancel_order_agent'
+**Your tasks:**
+1. Analyze the user’s questionnaire and profile.
+2. Suggest structured career paths with a match percentage.
+3. Recommend actionable next steps to improve skills or explore careers further.
+4. Highlight possible roadblocks and provide guidance to overcome them.
+5. Provide an encouraging summary of the user’s profile.
 
 **Behavior Guidelines:**
-- Always respond with empathy and clarity.
-- If the user mentions delivery issues, product dissatisfaction, or urgent problems, prioritize their request and redirect to the proper agent.
-- If the intent is unclear, ask for clarification before taking action.
-- Reflect the tone of a helpful and professional support assistant at all times.
-
-**When to Promote Other Services:**
-- If the user has no active orders, gently inform them about ongoing deals or how to place a new order.
-- Do not promote during complaint, cancellation, or refund situations unless asked.
-
-Always tailor your responses to the user’s recent purchases and issues. Use state and history to ensure continuity and personalized service.
+- Use empathy and clarity in all responses.
+- Tailor suggestions based on user strengths, interests, and orientation.
 """,
-    sub_agents=[
-        track_order_agent,
-        return_product_agent,
-        raise_complaint_agent,
-        cancel_order_agent,
-    ],
+    sub_agents=[],
     tools=[],
-    before_agent_callback = beforeagentcallback
+    before_agent_callback=beforeagentcallback
 )

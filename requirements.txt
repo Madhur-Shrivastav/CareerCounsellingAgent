@@ -5,7 +5,11 @@ uvicorn
 # Google Gemini / ADK
 google-generativeai
 google-adk
-
+# qlalchemy[asyncio] 
+asyncpg 
+supabase
+psycopg2
+sentence-transformers
 # Environment variable loader
 python-dotenv
 

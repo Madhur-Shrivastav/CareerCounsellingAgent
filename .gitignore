@@ -8,3 +8,5 @@ __pycache__/
 
 # Environment variables
 .env
+functions/get_supabase.py
+get_supabase.py

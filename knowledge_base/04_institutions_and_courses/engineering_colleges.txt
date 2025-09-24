@@ -1,0 +1,1289 @@
+State: Rajasthan
+  Govt_Colleges:
+    - Name: Govt. Engineering College, Ajmer
+      Exam: REAP (JEE Main basis)
+      Cutoff: 60000–80000
+      Fee: 60000–90000
+    - Name: Govt. Engineering College, Bikaner
+      Exam: REAP
+      Cutoff: 70000–90000
+      Fee: 55000–85000
+    - Name: Govt. Engineering College, Jhalawar
+      Exam: REAP
+      Cutoff: 75000–100000
+      Fee: 50000–80000
+    - Name: University College of Engineering, Kota
+      Exam: REAP
+      Cutoff: 60000–85000
+      Fee: 55000–90000
+  Private_Colleges:
+    - Name: JECRC University, Jaipur
+      Exam: JEE/Direct
+      Fee: 150000–200000
+    - Name: Poornima College of Engineering, Jaipur
+      Exam: JEE/Direct
+      Fee: 100000–150000
+    - Name: Arya College of Engg. & IT, Jaipur
+      Exam: JEE/Direct
+      Fee: 100000–150000
+    - Name: LNMIIT, Jaipur
+      Exam: JEE Main
+      Cutoff: <40000
+      Fee: 300000–350000
+
+
+
+State: Sikkim
+  Govt_Colleges:
+    - Name: Sikkim Institute of Science & Tech, Chisopani
+      Exam: JEE Main
+      Cutoff: 70000–100000
+      Fee: 40000–60000
+    - Name: Govt. College of Engg. & Tech, Soreng
+      Exam: JEE Main
+      Cutoff: 80000–100000
+      Fee: 40000–60000
+  Private_Colleges:
+    - Name: Sikkim Manipal Institute of Tech (SMIT), Majitar
+      Exam: JEE/SMIT
+      Cutoff: <50000
+      Fee: 200000–250000
+    - Name: Harkamaya College of IT & Mgmt, Gangtok
+      Fee: 70000–120000
+    - Name: ICFAI University, Sikkim
+      Fee: 100000–150000
+    - Name: EIILM University
+      Fee: 100000–150000
+
+
+
+State: Uttar Pradesh
+  Govt_Colleges:
+    - Name: HBTU, Kanpur
+      Exam: JEE Main/UPCET
+      Cutoff: <30000
+      Fee: 100000–120000
+    - Name: IET Lucknow
+      Exam: JEE Main/UPCET
+      Cutoff: <35000
+      Fee: 90000–110000
+    - Name: KNIT Sultanpur
+      Exam: JEE Main/UPCET
+      Cutoff: <45000
+      Fee: 80000–100000
+    - Name: BIET Jhansi
+      Exam: JEE Main/UPCET
+      Cutoff: 50000–70000
+      Fee: 80000–100000
+  Private_Colleges:
+    - Name: Galgotias University, Greater Noida
+      Exam: JEE/Own
+      Fee: 150000–200000
+    - Name: Sharda University, Noida
+      Exam: SUAT/JEE
+      Fee: 150000–220000
+    - Name: GL Bajaj Institute, Greater Noida
+      Exam: JEE/Own
+      Fee: 140000–180000
+    - Name: KIET Ghaziabad
+      Exam: JEE/UPCET
+      Fee: 130000–170000
+
+
+
+State: Uttarakhand
+  Govt_Colleges:
+    - Name: College of Technology, Pantnagar (GBPUAT)
+      Exam: JEE Main
+      Cutoff: 40000–60000
+      Fee: 50000–80000
+    - Name: G.B. Pant Institute of Engg., Pauri
+      Exam: JEE Main
+      Cutoff: 60000–80000
+      Fee: 60000–90000
+    - Name: Kumaon Engineering College, Dwarahat
+      Exam: JEE Main
+      Cutoff: 70000–90000
+      Fee: 55000–85000
+    - Name: Seemant Institute of Tech, Pithoragarh
+      Exam: JEE Main
+      Cutoff: 80000–100000
+      Fee: 50000–80000
+  Private_Colleges:
+    - Name: Graphic Era University, Dehradun
+      Exam: JEE/Direct
+      Fee: 200000–250000
+    - Name: UPES, Dehradun
+      Exam: UPESEAT/JEE
+      Fee: 300000–400000
+    - Name: DIT University, Dehradun
+      Exam: JEE/Direct
+      Fee: 150000–200000
+    - Name: Tula’s Institute, Dehradun
+      Exam: JEE/Direct
+      Fee: 120000–160000
+
+
+
+State: West Bengal
+  Govt_Colleges:
+    - Name: Jadavpur University
+      Exam: WBJEE
+      Cutoff: <2000
+      Fee: 20000–40000
+    - Name: Kalyani Govt. Engg. College
+      Exam: WBJEE
+      Cutoff: 5000–10000
+      Fee: 30000–50000
+    - Name: Jalpaiguri Govt. Engg. College
+      Exam: WBJEE
+      Cutoff: 7000–12000
+      Fee: 35000–55000
+    - Name: University Institute of Tech (Burdwan Univ.)
+      Exam: WBJEE
+      Cutoff: 10000–15000
+      Fee: 40000–60000
+  Private_Colleges:
+    - Name: Heritage Institute of Tech, Kolkata
+      Exam: WBJEE/JEE
+      Fee: 120000–160000
+    - Name: Techno India University, Kolkata
+      Exam: WBJEE/JEE
+      Fee: 100000–150000
+    - Name: Institute of Engg. & Mgmt (IEM), Kolkata
+      Exam: WBJEE/JEE
+      Fee: 120000–160000
+    - Name: Narula Institute of Tech, Kolkata
+      Exam: WBJEE/JEE
+      Fee: 100000–140000
+
+
+
+State: Bihar
+  Govt_Colleges:
+    - Name: Muzaffarpur Institute of Technology (MIT), Muzaffarpur
+      Exam: JEE Main
+      Cutoff: 20000–40000
+      Fee: 35000–55000
+    - Name: Bhagalpur College of Engineering
+      Exam: JEE Main
+      Cutoff: 30000–50000
+      Fee: 30000–50000
+    - Name: Darbhanga College of Engineering
+      Exam: JEE Main
+      Cutoff: 35000–55000
+      Fee: 30000–50000
+    - Name: Nalanda College of Engineering, Chandi
+      Exam: JEE Main
+      Cutoff: 40000–60000
+      Fee: 25000–45000
+  Private_Colleges:
+    - Name: Netaji Subhas Institute of Technology (NSIT), Patna
+      Exam: JEE/Direct
+      Fee: 100000–140000
+    - Name: R.P. Sharma Institute of Technology (RPSIT), Patna
+      Exam: JEE/Direct
+      Fee: 100000–120000
+    - Name: Maulana Azad College of Engineering & Tech, Patna
+      Exam: JEE/Direct
+      Fee: 100000–130000
+    - Name: Exalt College of Engg. & Tech, Patna
+      Exam: Direct/JEE
+      Fee: 80000–120000
+
+
+
+State: Jharkhand
+  Govt_Colleges:
+    - Name: Birsa Institute of Technology (BIT), Sindri
+      Exam: JEE Main
+      Cutoff: 20000–45000
+      Fee: 30000–45000
+    - Name: Cambridge Institute of Technology, Ranchi
+      Exam: JEE Main
+      Cutoff: 35000–55000
+      Fee: 35000–50000
+    - Name: Govt. Engineering College, Chaibasa
+      Exam: JEE Main
+      Cutoff: 40000–60000
+      Fee: 25000–40000
+    - Name: Govt. Engineering College, Dumka
+      Exam: JEE Main
+      Cutoff: 45000–65000
+      Fee: 25000–40000
+  Private_Colleges:
+    - Name: R.V.S. College of Engg. & Tech, Jamshedpur
+      Exam: JEE/Direct
+      Fee: 90000–120000
+    - Name: Ramgovind Institute of Technology, Koderma
+      Exam: JEE/Direct
+      Fee: 80000–100000
+    - Name: Maryland Institute of Tech & Mgmt, Jamshedpur
+      Exam: Direct
+      Fee: 90000–110000
+    - Name: Silli Polytechnic cum Engg. College, Ranchi
+      Exam: Direct
+      Fee: 70000–100000
+
+
+
+State: Odisha
+  Govt_Colleges:
+    - Name: College of Engineering & Technology (CET), Bhubaneswar
+      Exam: OJEE/JEE
+      Cutoff: 10000–25000
+      Fee: 35000–55000
+    - Name: Indira Gandhi Institute of Technology (IGIT), Sarang
+      Exam: OJEE/JEE
+      Cutoff: 15000–30000
+      Fee: 30000–50000
+    - Name: Parala Maharaja Engineering College, Berhampur
+      Exam: OJEE/JEE
+      Cutoff: 20000–35000
+      Fee: 30000–45000
+    - Name: Govt. College of Engineering, Keonjhar
+      Exam: OJEE/JEE
+      Cutoff: 25000–40000
+      Fee: 25000–40000
+  Private_Colleges:
+    - Name: KIIT University, Bhubaneswar
+      Exam: KIITEE
+      Cutoff: <30000
+      Fee: 350000–450000
+    - Name: Siksha ‘O’ Anusandhan (SOA) University, Bhubaneswar
+      Exam: SAAT/JEE
+      Fee: 250000–350000
+    - Name: Gandhi Institute of Tech & Mgmt (GITA), Bhubaneswar
+      Exam: JEE/OJEE
+      Fee: 100000–120000
+    - Name: Trident Academy of Technology, Bhubaneswar
+      Exam: JEE/OJEE
+      Fee: 100000–130000
+
+
+
+State: Chhattisgarh
+  Govt_Colleges:
+    - Name: Govt. Engineering College, Raipur
+      Exam: CGPET/JEE
+      Cutoff: 20000–40000
+      Fee: 25000–40000
+    - Name: Govt. Engineering College, Bilaspur
+      Exam: CGPET/JEE
+      Cutoff: 25000–45000
+      Fee: 25000–35000
+    - Name: Govt. Engineering College, Jagdalpur
+      Exam: CGPET/JEE
+      Cutoff: 30000–50000
+      Fee: 20000–30000
+    - Name: Govt. Engineering College, Ambikapur
+      Exam: CGPET/JEE
+      Cutoff: 30000–55000
+      Fee: 20000–30000
+  Private_Colleges:
+    - Name: Rungta College of Engg. & Tech, Bhilai
+      Exam: JEE/Direct
+      Fee: 90000–120000
+    - Name: Shri Shankaracharya Group of Institutions, Bhilai
+      Exam: JEE/Direct
+      Fee: 90000–110000
+    - Name: Kruti Institute of Tech & Engg, Raipur
+      Exam: JEE/Direct
+      Fee: 80000–100000
+    - Name: Columbia Institute of Engg. & Tech, Raipur
+      Exam: JEE/Direct
+      Fee: 75000–100000
+
+
+
+State: Madhya Pradesh
+  Govt_Colleges:
+    - Name: Jabalpur Engineering College (JEC)
+      Exam: JEE Main
+      Cutoff: 15000–30000
+      Fee: 30000–50000
+    - Name: Ujjain Engineering College
+      Exam: JEE Main
+      Cutoff: 20000–35000
+      Fee: 25000–40000
+    - Name: Govt. Engineering College, Rewa
+      Exam: JEE Main
+      Cutoff: 25000–40000
+      Fee: 25000–35000
+    - Name: Govt. Engineering College, Sagar
+      Exam: JEE Main
+      Cutoff: 25000–45000
+      Fee: 25000–35000
+  Private_Colleges:
+    - Name: SGSITS, Indore
+      Exam: JEE Main
+      Fee: 80000–120000
+    - Name: MITS, Gwalior
+      Exam: JEE Main
+      Fee: 80000–110000
+    - Name: LNCT, Bhopal
+      Exam: JEE/Direct
+      Fee: 100000–120000
+    - Name: Oriental Institute of Science & Tech, Bhopal
+      Exam: JEE/Direct
+      Fee: 90000–110000
+
+
+
+State: Maharashtra
+  Govt_Colleges:
+    - Name: College of Engineering Pune (COEP Tech University)
+      Exam: MHT-CET/JEE Main
+      Cutoff: CET Rank <500
+      Fee: 85000–100000
+    - Name: VJTI, Mumbai
+      Exam: MHT-CET/JEE Main
+      Cutoff: CET Rank <600
+      Fee: 90000
+    - Name: SGGS Institute of Engg. & Tech, Nanded
+      Exam: MHT-CET
+      Cutoff: CET Rank <4000
+      Fee: 80000
+    - Name: Walchand College of Engineering, Sangli
+      Exam: MHT-CET
+      Cutoff: CET Rank <2000
+      Fee: 85000
+  Private_Colleges:
+    - Name: Bharati Vidyapeeth College of Engg., Pune
+      Exam: MHT-CET/JEE Main
+      Cutoff: CET Rank <10000
+      Fee: 150000–200000
+    - Name: MIT World Peace University, Pune
+      Exam: JEE Main/MHT-CET
+      Cutoff: CET Rank <15000
+      Fee: 200000–250000
+    - Name: DY Patil College of Engg., Pune
+      Exam: MHT-CET
+      Cutoff: CET Rank <20000
+      Fee: 200000–220000
+    - Name: VIT Pune
+      Exam: MHT-CET
+      Cutoff: CET Rank <7000
+      Fee: 180000–220000
+
+
+
+State: Gujarat
+  Govt_Colleges:
+    - Name: LD College of Engineering, Ahmedabad
+      Exam: GUJCET
+      Cutoff: Rank <1000
+      Fee: 2000
+    - Name: Vishwakarma Govt. Engg. College, Ahmedabad
+      Exam: GUJCET
+      Cutoff: Rank <4000
+      Fee: 3000
+    - Name: Govt. Engineering College, Surat
+      Exam: GUJCET
+      Cutoff: Rank <5000
+      Fee: 3000
+    - Name: Govt. Engineering College, Bhavnagar
+      Exam: GUJCET
+      Cutoff: Rank <6000
+      Fee: 3000
+  Private_Colleges:
+    - Name: Nirma University, Ahmedabad
+      Exam: JEE Main/GUJCET
+      Cutoff: Rank <3000
+      Fee: 200000–250000
+    - Name: DA-IICT Gandhinagar
+      Exam: JEE Main
+      Cutoff: Rank <6000
+      Fee: 200000
+    - Name: Parul University, Vadodara
+      Exam: GUJCET
+      Cutoff: Rank <15000
+      Fee: 150000–180000
+    - Name: Indus University, Ahmedabad
+      Exam: GUJCET
+      Cutoff: Rank <20000
+      Fee: 120000–150000
+
+
+
+State: Karnataka
+  Govt_Colleges:
+    - Name: University Visvesvaraya College of Engineering (UVCE), Bangalore
+      Exam: KCET
+      Cutoff: Rank < 1500
+      Fee: 30000
+    - Name: SJCE Mysuru (Sri Jayachamarajendra College of Engineering)
+      Exam: KCET
+      Cutoff: Rank < 2500
+      Fee: 35000
+    - Name: RNS Institute of Technology (State quota)
+      Exam: KCET
+      Cutoff: Rank < 6000
+      Fee: 40000
+    - Name: BMSCE (Govt quota seats)
+      Exam: KCET
+      Cutoff: Rank < 2000
+      Fee: 45000
+  Private_Colleges:
+    - Name: RV College of Engineering, Bangalore
+      Exam: COMEDK / KCET
+      Cutoff: Rank < 500
+      Fee: 300000–350000
+    - Name: PES University, Bangalore
+      Exam: PESSAT / KCET
+      Cutoff: Rank < 2000
+      Fee: 300000–320000
+    - Name: MS Ramaiah Institute of Technology (MSRIT), Bangalore
+      Exam: COMEDK / KCET
+      Cutoff: Rank < 2000
+      Fee: 280000–300000
+    - Name: Dayananda Sagar College of Engineering, Bangalore
+      Exam: COMEDK
+      Cutoff: Rank < 5000
+      Fee: 250000–300000
+
+
+
+State: Tamil Nadu
+  Govt_Colleges:
+    - Name: College of Engineering, Guindy (Anna University)
+      Exam: TNEA (12th marks)
+      Cutoff: 195+/200
+      Fee: 55000
+    - Name: PSG College of Technology, Coimbatore
+      Exam: TNEA
+      Cutoff: 192+/200
+      Fee: 60000
+    - Name: Govt College of Technology, Coimbatore
+      Exam: TNEA
+      Cutoff: 185+/200
+      Fee: 50000
+    - Name: Thiagarajar College of Engineering, Madurai
+      Exam: TNEA
+      Cutoff: 180+/200
+      Fee: 55000
+  Private_Colleges:
+    - Name: SRM Institute of Science and Technology, Chennai
+      Exam: SRMJEEE
+      Cutoff: Rank < 20000
+      Fee: 350000–400000
+    - Name: VIT Vellore
+      Exam: VITEEE
+      Cutoff: Rank < 10000
+      Fee: 350000–450000
+    - Name: SASTRA University, Thanjavur
+      Exam: JEE Main / 12th marks
+      Cutoff: Top 15000 JEE
+      Fee: 150000–200000
+    - Name: Hindustan Institute of Technology & Science, Chennai
+      Exam: HITSEEE
+      Cutoff: Moderate
+      Fee: 150000–200000
+
+
+
+State: Telangana
+  Govt_Colleges:
+    - Name: Osmania University College of Engineering, Hyderabad
+      Exam: TS-EAMCET
+      Cutoff: Rank < 5000
+      Fee: 60000–70000
+    - Name: JNTU Hyderabad
+      Exam: TS-EAMCET
+      Cutoff: Rank < 4000
+      Fee: 55000–65000
+    - Name: Kakatiya Institute of Tech & Science, Warangal
+      Exam: TS-EAMCET
+      Cutoff: Rank < 8000
+      Fee: 50000–60000
+    - Name: University College of Engineering, Kothagudem
+      Exam: TS-EAMCET
+      Cutoff: Rank < 12000
+      Fee: 45000–55000
+  Private_Colleges:
+    - Name: BITS Pilani Hyderabad
+      Exam: BITSAT
+      Cutoff: 270+
+      Fee: 600000–700000
+    - Name: VNR VJIET Hyderabad
+      Exam: TS-EAMCET
+      Cutoff: Rank < 10000
+      Fee: 120000–150000
+    - Name: CMR College of Engg & Tech, Hyderabad
+      Exam: TS-EAMCET
+      Cutoff: Rank < 20000
+      Fee: 100000–120000
+    - Name: Gokaraju Rangaraju Institute of Engg, Hyderabad
+      Exam: TS-EAMCET
+      Cutoff: Rank < 15000
+      Fee: 100000–130000
+
+
+
+State: Andhra Pradesh
+  Govt_Colleges:
+    - Name: Andhra University College of Engineering, Vizag
+      Exam: AP-EAMCET
+      Cutoff: Rank < 3000
+      Fee: 50000–60000
+    - Name: JNTU Kakinada
+      Exam: AP-EAMCET
+      Cutoff: Rank < 5000
+      Fee: 55000–65000
+    - Name: Sri Venkateswara University College of Engg, Tirupati
+      Exam: AP-EAMCET
+      Cutoff: Rank < 8000
+      Fee: 45000–55000
+    - Name: Adikavi Nannaya Univ. College of Engg, Rajahmundry
+      Exam: AP-EAMCET
+      Cutoff: Rank < 12000
+      Fee: 40000–50000
+  Private_Colleges:
+    - Name: VIT-AP (Amaravati)
+      Exam: VITEEE
+      Cutoff: Rank < 20000
+      Fee: 350000–400000
+    - Name: KL University, Vijayawada
+      Exam: Own / EAMCET
+      Cutoff: Rank < 25000
+      Fee: 250000–300000
+    - Name: Gayatri Vidya Parishad College of Engg, Vizag
+      Exam: AP-EAMCET
+      Cutoff: Rank < 15000
+      Fee: 120000–150000
+    - Name: SRM-AP University
+      Exam: SRMJEEE
+      Cutoff: Rank < 20000
+      Fee: 300000–350000
+
+
+
+State: Kerala
+  Govt_Colleges:
+    - Name: College of Engineering Trivandrum (CET)
+      Exam: KEAM
+      Cutoff: Rank < 2000
+      Fee: 50000–60000
+    - Name: Govt Engg College, Thrissur
+      Exam: KEAM
+      Cutoff: Rank < 4000
+      Fee: 45000–55000
+    - Name: Govt Engg College, Kozhikode
+      Exam: KEAM
+      Cutoff: Rank < 7000
+      Fee: 40000–50000
+    - Name: Govt Rajiv Gandhi Institute of Tech, Kottayam
+      Exam: KEAM
+      Cutoff: Rank < 6000
+      Fee: 45000–55000
+  Private_Colleges:
+    - Name: Amrita School of Engineering (Coimbatore/Kollam)
+      Exam: AEEE
+      Cutoff: Rank < 7000
+      Fee: 300000–350000
+    - Name: SCMS School of Engg & Tech, Kochi
+      Exam: KEAM
+      Cutoff: Rank < 12000
+      Fee: 120000–150000
+    - Name: Toc H Institute of Science & Tech, Ernakulam
+      Exam: KEAM
+      Cutoff: Rank < 20000
+      Fee: 100000–120000
+    - Name: Mar Baselios College of Engg, Trivandrum
+      Exam: KEAM
+      Cutoff: Rank < 15000
+      Fee: 100000–130000
+
+
+
+State: Punjab
+  Govt_Colleges:
+    - Name: Punjab Engineering College (PEC), Chandigarh
+      Exam: JEE Main
+      Cutoff: Rank < 15000
+      Fee: 90000–100000
+    - Name: Guru Nanak Dev Engineering College, Ludhiana
+      Exam: PTU-CET
+      Cutoff: Rank < 10000
+      Fee: 70000–80000
+    - Name: Shaheed Bhagat Singh State Technical Campus, Ferozepur
+      Exam: PTU-CET
+      Cutoff: Rank < 20000
+      Fee: 65000–75000
+    - Name: Beant College of Engg & Tech, Gurdaspur
+      Exam: PTU-CET
+      Cutoff: Rank < 25000
+      Fee: 60000–70000
+  Private_Colleges:
+    - Name: Chandigarh University (CU)
+      Exam: JEE Main / CU Entrance
+      Cutoff: Rank < 50000
+      Fee: 150000–200000
+    - Name: Lovely Professional University (LPU), Jalandhar
+      Exam: LPUNEST
+      Cutoff: Rank < 60000
+      Fee: 200000–250000
+    - Name: CGC Landran (Chandigarh Group of Colleges)
+      Exam: PTU-CET
+      Cutoff: Rank < 30000
+      Fee: 100000–120000
+    - Name: DAV Institute of Engineering, Jalandhar
+      Exam: PTU-CET
+      Cutoff: Rank < 40000
+      Fee: 90000–110000
+
+
+
+State: Odisha
+  Govt_Colleges:
+    - Name: College of Engineering & Technology (CET), Bhubaneswar
+      Exam: OJEE / JEE Main
+      Cutoff: Rank < 20000 (State)
+      Fee: 40000–50000
+    - Name: Indira Gandhi Institute of Technology (IGIT), Sarang
+      Exam: OJEE / JEE Main
+      Cutoff: Rank < 25000
+      Fee: 35000–45000
+    - Name: Parala Maharaja Engineering College, Berhampur
+      Exam: OJEE
+      Cutoff: Rank < 35000
+      Fee: 40000
+    - Name: Government College of Engineering, Keonjhar
+      Exam: OJEE
+      Cutoff: Rank < 40000
+      Fee: 35000
+  Private_Colleges:
+    - Name: KIIT University, Bhubaneswar
+      Exam: KIITEE
+      Cutoff: Rank < 15000
+      Fee: 350000–400000
+    - Name: Siksha ‘O’ Anusandhan (SOA), Bhubaneswar
+      Exam: SAAT / JEE Main
+      Cutoff: ~50000
+      Fee: 250000–300000
+    - Name: C.V. Raman Global University, Bhubaneswar
+      Exam: JEE Main / OJEE
+      Fee: 200000–250000
+    - Name: GITA (Gandhi Institute for Technological Advancement), Bhubaneswar
+      Exam: JEE Main / OJEE
+      Fee: 180000–250000
+
+
+
+State: Haryana
+  Govt_Colleges:
+    - Name: NIT Kurukshetra
+      Exam: JEE Main
+      Cutoff: Rank < 15000
+      Fee: 120000–140000
+    - Name: Deenbandhu Chhotu Ram University of Science & Technology, Murthal
+      Exam: JEE Main / HSTES
+      Cutoff: Rank < 40000
+      Fee: 80000–100000
+    - Name: YMCA University of Science & Technology, Faridabad
+      Exam: JEE Main
+      Cutoff: Rank < 25000
+      Fee: 90000–110000
+  Private_Colleges:
+    - Name: Amity University Haryana
+      Exam: Own
+      Fee: 250000–300000
+    - Name: Manav Rachna International University, Faridabad
+      Exam: MRNAT / JEE
+      Fee: 220000–280000
+    - Name: KIIT Gurugram Campus
+      Exam: Own / JEE
+      Fee: 200000–250000
+
+
+
+State: Rajasthan
+  Govt_Colleges:
+    - Name: MNIT Jaipur
+      Exam: JEE Main
+      Cutoff: Rank < 10000
+      Fee: 130000–150000
+    - Name: College of Technology & Engineering, Udaipur
+      Exam: REAP (JEE Main / 12th)
+      Cutoff: Rank < 20000
+      Fee: 60000–70000
+    - Name: Govt Engineering College, Ajmer
+      Exam: REAP
+      Cutoff: Rank < 35000
+      Fee: 55000–65000
+  Private_Colleges:
+    - Name: JECRC University, Jaipur
+      Exam: JEE / REAP
+      Fee: 150000–200000
+    - Name: Poornima University, Jaipur
+      Exam: JEE / REAP
+      Fee: 120000–180000
+    - Name: Arya College of Engineering, Jaipur
+      Exam: JEE / REAP
+      Fee: 100000–150000
+
+
+
+State: Uttar Pradesh
+  Govt_Colleges:
+    - Name: IIT BHU (Varanasi)
+      Exam: JEE Advanced
+      Cutoff: Rank < 1000
+      Fee: 200000–250000
+    - Name: HBTU Kanpur
+      Exam: JEE Main / UPSEE
+      Cutoff: Rank < 20000
+      Fee: 80000–100000
+    - Name: IET Lucknow
+      Exam: JEE Main / UPSEE
+      Cutoff: Rank < 30000
+      Fee: 75000–90000
+    - Name: MMMUT Gorakhpur
+      Exam: JEE Main / UPSEE
+      Cutoff: Rank < 40000
+      Fee: 70000–85000
+  Private_Colleges:
+    - Name: Galgotias University, Greater Noida
+      Exam: JEE / Own
+      Fee: 150000–200000
+    - Name: Sharda University, Greater Noida
+      Exam: SUAT / JEE
+      Fee: 180000–220000
+    - Name: Amity University Noida
+      Exam: Amity JEE / JEE Main
+      Fee: 250000–300000
+    - Name: KIET Ghaziabad
+      Exam: UPSEE
+      Fee: 120000–150000
+
+
+
+State: Madhya Pradesh
+  Govt_Colleges:
+    - Name: MANIT Bhopal
+      Exam: JEE Main
+      Cutoff: Rank < 12000
+      Fee: 120000–140000
+    - Name: Jabalpur Engineering College (JEC)
+      Exam: JEE Main
+      Cutoff: Rank < 30000
+      Fee: 60000–70000
+    - Name: Ujjain Engineering College
+      Exam: JEE Main
+      Cutoff: Rank < 40000
+      Fee: 55000–65000
+  Private_Colleges:
+    - Name: LNCT Bhopal
+      Exam: JEE / MPDTE
+      Fee: 120000–150000
+    - Name: Oriental Institute of Science & Technology, Bhopal
+      Exam: JEE / MPDTE
+      Fee: 100000–120000
+    - Name: VIT Bhopal
+      Exam: VITEEE
+      Fee: 300000–350000
+
+
+
+State: Maharashtra
+  Govt_Colleges:
+    - Name: College of Engineering Pune (COEP)
+      Exam: MHT-CET / JEE Main
+      Cutoff: Rank < 2000
+      Fee: 90000–100000
+    - Name: VJTI Mumbai
+      Exam: MHT-CET / JEE Main
+      Cutoff: Rank < 3000
+      Fee: 85000–95000
+    - Name: SPCE Mumbai
+      Exam: MHT-CET / JEE Main
+      Cutoff: Rank < 5000
+      Fee: 80000–90000
+  Private_Colleges:
+    - Name: MIT-WPU Pune
+      Exam: JEE / MHT-CET
+      Fee: 250000–300000
+    - Name: Symbiosis Institute of Technology, Pune
+      Exam: JEE / SITEEE
+      Fee: 300000–350000
+    - Name: Bharati Vidyapeeth College of Engineering, Pune
+      Exam: JEE / CET
+      Fee: 180000–220000
+
+
+
+State: Gujarat
+  Govt_Colleges:
+    - Name: LD College of Engineering, Ahmedabad
+      Exam: GUJCET / JEE
+      Cutoff: Rank < 4000
+      Fee: 60000–70000
+    - Name: Government Engineering College, Gandhinagar
+      Exam: GUJCET / JEE
+      Cutoff: Rank < 8000
+      Fee: 55000–65000
+  Private_Colleges:
+    - Name: Nirma University, Ahmedabad
+      Exam: JEE Main / GUJCET
+      Fee: 200000–250000
+    - Name: PDEU Gandhinagar
+      Exam: JEE / GUJCET
+      Fee: 220000–280000
+
+
+
+State: West Bengal
+  Govt_Colleges:
+    - Name: Jadavpur University, Kolkata
+      Exam: WBJEE
+      Cutoff: Rank < 2000
+      Fee: 5000–10000
+    - Name: IIEST Shibpur
+      Exam: JEE Main
+      Cutoff: Rank < 15000
+      Fee: 70000–80000
+    - Name: Kalyani Government Engineering College
+      Exam: WBJEE
+      Cutoff: Rank < 7000
+      Fee: 40000–50000
+  Private_Colleges:
+    - Name: Heritage Institute of Technology, Kolkata
+      Exam: WBJEE / JEE
+      Fee: 140000–180000
+    - Name: Techno India Salt Lake
+      Exam: WBJEE
+      Fee: 120000–150000
+    - Name: Institute of Engineering & Management (IEM), Kolkata
+      Exam: WBJEE
+      Fee: 150000–200000
+
+
+
+State: Bihar
+  Govt_Colleges:
+    - Name: NIT Patna
+      Exam: JEE Main
+      Cutoff: Rank < 20000
+      Fee: 120000–140000
+    - Name: Muzaffarpur Institute of Technology (MIT)
+      Exam: BCECE
+      Cutoff: Rank < 5000
+      Fee: 50000–60000
+  Private_Colleges:
+    - Name: Amity Patna
+      Exam: Own
+      Fee: 200000–250000
+    - Name: NSIT Bihta
+      Exam: BCECE
+      Fee: 100000–120000
+
+
+
+State: Jharkhand
+  Govt_Colleges:
+    - Name: BIT Sindri
+      Exam: JCECE / JEE Main
+      Cutoff: Rank < 20000
+      Fee: 40000–50000
+  Private_Colleges:
+    - Name: RKDF Ranchi
+      Exam: Own / JCECE
+      Fee: 120000–150000
+
+
+
+State: Assam
+  Govt_Colleges:
+    - Name: Assam Engineering College, Guwahati
+      Exam: CEE Assam
+      Cutoff: Rank < 3000
+      Fee: 50000–60000
+    - Name: Jorhat Engineering College
+      Exam: CEE Assam
+      Cutoff: Rank < 5000
+      Fee: 45000–55000
+  Private_Colleges:
+    - Name: Assam Down Town University
+      Exam: Own
+      Fee: 120000–150000
+    - Name: Girijananda Chowdhury Institute of Management & Tech, Guwahati
+      Exam: Own / CEE
+      Fee: 100000–120000
+
+
+
+State: North-East (Other states)
+  Govt_Colleges:
+    - Name: NIT Silchar (Assam)
+      Exam: JEE Main
+      Cutoff: Rank < 20000
+      Fee: 120000–140000
+    - Name: NIT Agartala (Tripura)
+      Exam: JEE Main
+      Cutoff: Rank < 25000
+      Fee: 120000–140000
+    - Name: NIT Mizoram
+      Exam: JEE Main
+      Cutoff: Rank < 40000
+      Fee: 120000–140000
+    - Name: NIT Nagaland
+      Exam: JEE Main
+      Cutoff: Rank < 40000
+      Fee: 120000–140000
+    - Name: NIT Manipur
+      Exam: JEE Main
+      Cutoff: Rank < 35000
+      Fee: 120000–140000
+
+
+
+State: Jharkhand
+  Govt_Colleges:
+    - Name: BIT Sindri, Dhanbad
+      Exam: JCECE / JEE Main
+      Cutoff: Rank < 20000
+      Fee: 40000–50000
+    - Name: Government Engineering College, Chaibasa
+      Exam: JCECE
+      Cutoff: Rank < 40000
+      Fee: 35000
+    - Name: Government Engineering College, Dumka
+      Exam: JCECE
+      Cutoff: Rank < 50000
+      Fee: 30000
+    - Name: Government Engineering College, Ramgarh
+      Exam: JCECE
+      Cutoff: Rank < 45000
+      Fee: 35000
+  Private_Colleges:
+    - Name: RVS College of Engineering & Technology, Jamshedpur
+      Exam: JCECE / JEE Main
+      Fee: 150000–200000
+    - Name: Cambridge Institute of Technology, Ranchi
+      Exam: JCECE / JEE Main
+      Fee: 150000–200000
+    - Name: Ramgovind Institute of Technology, Koderma
+      Exam: JCECE
+      Fee: 100000–150000
+    - Name: Capital University, Ranchi (Faculty of Engineering)
+      Exam: Direct / JEE Main
+      Fee: 120000–180000
+
+
+
+State: Chhattisgarh
+  Govt_Colleges:
+    - Name: Government Engineering College, Raipur
+      Exam: CG PET / JEE Main
+      Cutoff: Rank < 25000
+      Fee: 40000–50000
+    - Name: Government Engineering College, Bilaspur
+      Exam: CG PET
+      Cutoff: Rank < 30000
+      Fee: 35000
+    - Name: Government Engineering College, Jagdalpur
+      Exam: CG PET
+      Cutoff: Rank < 40000
+      Fee: 30000
+    - Name: Government Engineering College, Ambikapur
+      Exam: CG PET
+      Cutoff: Rank < 45000
+      Fee: 30000
+  Private_Colleges:
+    - Name: Rungta College of Engineering & Technology, Bhilai
+      Exam: CG PET / JEE Main
+      Fee: 150000–200000
+    - Name: Shri Shankaracharya Institute of Professional Management & Technology, Raipur
+      Exam: CG PET / JEE Main
+      Fee: 150000–200000
+    - Name: Columbia Institute of Engineering & Technology, Raipur
+      Exam: CG PET
+      Fee: 120000–160000
+    - Name: Kruti Institute of Technology & Engineering, Raipur
+      Exam: JEE Main / Direct
+      Fee: 100000–150000
+
+
+
+State: Rajasthan
+  Govt_Colleges:
+    - Name: MBM Engineering College, Jodhpur
+      Exam: REAP (JEE Main based)
+      Cutoff: Rank < 30000
+      Fee: 30000–40000
+    - Name: Rajasthan Technical University (RTU), Kota
+      Exam: REAP
+      Cutoff: Rank < 40000
+      Fee: 35000
+    - Name: Govt Engineering College, Ajmer
+      Exam: REAP
+      Cutoff: Rank < 50000
+      Fee: 35000
+    - Name: Govt Engineering College, Bikaner
+      Exam: REAP
+      Cutoff: Rank < 50000
+      Fee: 30000
+  Private_Colleges:
+    - Name: JECRC University, Jaipur
+      Exam: JEE Main / Direct
+      Fee: 150000–200000
+    - Name: Poornima College of Engineering, Jaipur
+      Exam: JEE Main / REAP
+      Fee: 150000–200000
+    - Name: Manipal University Jaipur
+      Exam: MET / JEE Main
+      Fee: 300000–400000
+    - Name: LNMIIT Jaipur
+      Exam: JEE Main
+      Cutoff: Rank < 20000
+      Fee: 350000–450000
+
+
+
+State: Madhya Pradesh
+  Govt_Colleges:
+    - Name: Jabalpur Engineering College (JEC), Jabalpur
+      Exam: MP DTE (JEE Main)
+      Cutoff: Rank < 25000
+      Fee: 30000–40000
+    - Name: Shri Govindram Seksaria Institute of Technology & Science (SGSITS), Indore
+      Exam: JEE Main
+      Cutoff: Rank < 20000
+      Fee: 40000–50000
+    - Name: Ujjain Engineering College, Ujjain
+      Exam: JEE Main / MP DTE
+      Cutoff: Rank < 40000
+      Fee: 30000
+    - Name: Rewa Engineering College, Rewa
+      Exam: MP DTE
+      Cutoff: Rank < 50000
+      Fee: 30000
+  Private_Colleges:
+    - Name: LNCT Group of Colleges, Bhopal
+      Exam: JEE Main / Direct
+      Fee: 150000–200000
+    - Name: Oriental Institute of Science & Technology (OIST), Bhopal
+      Exam: JEE Main
+      Fee: 120000–180000
+    - Name: ITM University, Gwalior
+      Exam: JEE Main / Direct
+      Fee: 200000–250000
+    - Name: Acropolis Institute of Technology, Indore
+      Exam: JEE Main / Direct
+      Fee: 150000–200000
+
+
+
+State: Gujarat
+  Govt_Colleges:
+    - Name: LD College of Engineering, Ahmedabad
+      Exam: GUJCET / JEE Main
+      Cutoff: Rank < 10000 (state rank)
+      Fee: 25000–30000
+    - Name: Government Engineering College, Gandhinagar
+      Exam: GUJCET
+      Cutoff: Rank < 20000
+      Fee: 30000
+    - Name: BVM Engineering College, Vallabh Vidyanagar (Govt Aided)
+      Exam: GUJCET
+      Cutoff: Rank < 25000
+      Fee: 35000
+    - Name: Government Engineering College, Surat
+      Exam: GUJCET / JEE Main
+      Cutoff: Rank < 30000
+      Fee: 25000–30000
+  Private_Colleges:
+    - Name: Nirma University, Ahmedabad
+      Exam: JEE Main
+      Cutoff: Rank < 20000
+      Fee: 250000–300000
+    - Name: DA-IICT, Gandhinagar
+      Exam: JEE Main
+      Cutoff: Rank < 15000
+      Fee: 200000–250000
+    - Name: Pandit Deendayal Energy University (PDEU), Gandhinagar
+      Exam: JEE Main
+      Cutoff: Rank < 25000
+      Fee: 250000–300000
+    - Name: Parul University, Vadodara
+      Exam: JEE Main / GUJCET / Direct
+      Fee: 150000–200000
+
+
+
+State: Punjab
+  Govt_Colleges:
+    - Name: Punjab Engineering College (PEC), Chandigarh
+      Exam: JEE Main
+      Cutoff: Rank < 50000 (General CSE)
+      Fee: 100000–150000
+    - Name: Guru Nanak Dev Engineering College, Ludhiana
+      Exam: JEE Main / PTU Counselling
+      Cutoff: Rank < 100000
+      Fee: 80000–100000
+    - Name: Beant College of Engineering & Technology, Gurdaspur
+      Exam: JEE Main / State Counselling
+      Cutoff: Moderate
+      Fee: 75000–100000
+    - Name: Shaheed Bhagat Singh State Technical Campus, Ferozepur
+      Exam: JEE Main
+      Fee: 80000–100000
+  Private_Colleges:
+    - Name: Lovely Professional University (LPU), Phagwara
+      Exam: LPUNEST / JEE Main
+      Cutoff: Open admission (scholarships for high scorers)
+      Fee: 200000–300000
+    - Name: Chandigarh Engineering College, Landran (Mohali)
+      Exam: JEE Main
+      Fee: 100000–120000
+    - Name: CGC Jhanjeri (Mohali)
+      Exam: JEE Main
+      Fee: 100000–120000
+    - Name: Rayat Bahra University, Mohali
+      Exam: JEE Main
+      Fee: 120000–150000
+
+
+
+Haryana:
+  Government:
+    - name: Deenbandhu Chhotu Ram University of Science & Technology (DCRUST), Murthal
+      exam: JEE Main (State counselling)
+      cutoff: Rank < 1,00,000
+      fee: ₹80k–1 Lakh per year
+
+    - name: JC Bose University of Science & Technology, YMCA, Faridabad
+      exam: JEE Main
+      cutoff: Rank < 80,000 (CSE)
+      fee: ₹90k–1 Lakh per year
+
+    - name: Guru Jambheshwar University of Science & Technology, Hisar
+      exam: JEE Main
+      fee: ₹75k–1 Lakh per year
+
+    - name: Ch. Devi Lal State Institute of Engineering & Technology, Sirsa
+      exam: JEE Main
+      fee: ₹70k–90k per year
+
+  Private:
+    - name: Amity University, Gurugram
+      exam: Amity Test / JEE Main
+      fee: ₹2.5–3.5 Lakh per year
+
+    - name: Manav Rachna International Institute of Research & Studies, Faridabad
+      exam: JEE Main / MRNAT
+      fee: ₹2–3 Lakh per year
+
+    - name: KR Mangalam University, Gurugram
+      exam: JEE Main / University Test
+      fee: ₹1.5–2.5 Lakh per year
+
+    - name: World University of Technology (WUT), Sonipat
+      exam: University Entrance / JEE Main
+      fee: ₹1.5–2 Lakh per year
+
+
+Chandigarh:
+  Government:
+    - name: Punjab Engineering College (PEC), Chandigarh
+      exam: JEE Main
+      fee: ₹1–1.5 Lakh per year
+
+    - name: CCET (Chandigarh College of Engineering & Technology)
+      exam: JEE Main
+      cutoff: Rank < 1,50,000
+      fee: ₹80k–1 Lakh per year
+
+    - name: Government Polytechnic for Women, Chandigarh
+      exam: Polytechnic Entrance
+      fee: ₹30k–40k per year
+
+  Private:
+    - name: Chitkara University, Rajpura
+      exam: JEE Main / University Test
+      fee: ₹2–3 Lakh per year
+
+    - name: CGC Landran
+      exam: JEE Main
+      fee: ₹1–1.2 Lakh per year
+
+    - name: Rayat Bahra Chandigarh Campus
+      exam: JEE Main
+      fee: ₹1.2–1.5 Lakh per year
+
+
+Assam:
+  Government:
+    - name: Assam Engineering College (AEC), Guwahati
+      exam: JEE Main / Assam CEE
+      cutoff: Assam CEE Rank < 3000 (Gen)
+      fee: ₹40,000 – 60,000 per year
+
+    - name: Jorhat Engineering College, Jorhat
+      exam: JEE Main / Assam CEE
+      cutoff: Assam CEE Rank < 5000
+      fee: ₹35,000 – 50,000 per year
+
+    - name: Bineswar Brahma Engineering College, Kokrajhar
+      exam: Assam CEE
+      cutoff: Rank < 7000
+      fee: ₹30,000 – 45,000 per year
+
+    - name: Barak Valley Engineering College, Karimganj
+      exam: Assam CEE
+      cutoff: Rank < 8000
+      fee: ₹30,000 – 45,000 per year
+
+  Private:
+    - name: Girijananda Chowdhury Institute of Management and Technology (GIMT), Guwahati
+      exam: JEE Main / Direct
+      fee: ₹1.2 – 1.5 Lakh per year
+
+    - name: Don Bosco College of Engineering and Technology, Guwahati
+      exam: JEE Main / Institute Test
+      fee: ₹1.5 – 1.8 Lakh per year
+
+    - name: Royal School of Engineering & Technology (RSET), Guwahati
+      exam: Direct / JEE Main
+      fee: ₹1.2 – 1.5 Lakh per year
+
+    - name: Scholar’s Institute of Technology & Management (SITM), Guwahati
+      exam: Direct / JEE Main
+      fee: ₹1 – 1.3 Lakh per year
+
+
+Sikkim:
+  Government:
+    - name: Sikkim Institute of Science and Technology (SIST), Chisopani
+      exam: JEE Main / State Quota
+      cutoff: Moderate
+      fee: ₹40,000 – 60,000 per year
+
+    - name: Sikkim Government B.Tech Program under Sikkim University
+      exam: JEE Main / CUET
+      fee: ₹35,000 – 50,000 per year
+
+    - name: Advanced Technical Training Centre (ATTC), Bardang
+      exam: Entrance + JEE lateral
+      fee: ₹25,000 – 40,000 per year
+
+    - name: Government Polytechnic
+      exam: Entrance / Lateral routes
+      fee: ₹20,000 – 35,000 per year
+
+  Private:
+    - name: Sikkim Manipal Institute of Technology (SMIT), Majitar
+      exam: JEE Main / SMIT Entrance
+      fee: ₹3 – 3.5 Lakh per year
+
+    - name: ICFAI University, Sikkim
+      exam: Direct Admission / JEE Main
+      fee: ₹1.2 – 1.5 Lakh per year
+
+    - name: Vinayaka Missions Sikkim University
+      exam: Direct Admission
+      fee: ₹80,000 – 1.2 Lakh per year
+
+    - name: EIILM University
+      exam: Direct Admission
+      fee: ₹90,000 – 1.2 Lakh per year

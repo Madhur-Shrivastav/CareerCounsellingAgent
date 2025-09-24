@@ -1,0 +1,113 @@
+Career Options for B.Tech Graduates
+
+B.Tech in Computer Science / IT / Software
+Core Careers:
+- Software Developer / Full Stack Developer
+- Cloud Engineer / DevOps Engineer
+- Cybersecurity Analyst
+- Data Scientist / AI Engineer
+- Product Manager (Tech side)
+- Systems Architect
+
+Alternative Paths:
+- Digital Product Design (UI/UX + Tech)
+- Tech Consulting
+- Tech Startups / Entrepreneurship
+
+B.Tech in Electronics & Communication (ECE)
+Core Careers:
+- Embedded Systems Engineer
+- VLSI Design Engineer
+- Telecom Engineer
+- IoT Developer
+- Robotics Engineer
+
+IT Transition Roles:
+- Software Developer (with coding upskilling)
+- Data Analyst / Data Engineer
+- Networking / Cloud Specialist
+- Cybersecurity Analyst
+
+B.Tech in Mechanical Engineering
+Core Careers:
+- Design Engineer (CAD/CAE)
+- Manufacturing Engineer
+- Automotive Engineer
+- Robotics / Mechatronics
+- Production Planning
+
+IT Transition Roles:
+- Business Analyst (manufacturing tech)
+- CAD Automation / Simulation Developer
+- Data Analyst (Industrial IoT, Manufacturing Analytics)
+- Software Developer (with coding upskilling)
+
+B.Tech in Civil Engineering
+Core Careers:
+- Structural Engineer
+- Construction Project Manager
+- Urban Planning Engineer
+- Survey & GIS Specialist
+- Environmental Engineer
+
+IT Transition Roles:
+- CAD/BIM Software Specialist
+- Data Analyst (Infrastructure/Construction)
+- IT Project Manager
+- Software Tester / QA
+- GIS + IT Integration Specialist
+
+B.Tech in Electrical Engineering
+Core Careers:
+- Power Systems Engineer
+- Control Systems Engineer
+- Electrical Design Engineer
+- Energy Sector Specialist
+- Renewable Energy Engineer
+
+IT Transition Roles:
+- Automation / Industrial IoT Engineer
+- Embedded Systems Developer
+- Software Developer (with training)
+- Data Analyst (Energy/Utility sector)
+
+B.Tech in Production / Industrial Engineering
+Core Careers:
+- Supply Chain Analyst
+- Operations Manager
+- Quality Engineer
+- Lean Manufacturing Consultant
+
+IT Transition Roles:
+- Data Analyst (Supply Chain Analytics)
+- ERP Implementation Consultant
+- Business Analyst (Manufacturing IT)
+- Software Tester / QA
+
+Transitioning to IT: Open Pathways for All Branches
+Regardless of your B.Tech specialization, IT roles are accessible with the right upskilling.
+
+Minimal Coding Roles:
+- QA Testing
+- UI/UX Design
+- Technical Support
+- IT Project Management
+
+Blend Roles (Tech + Domain):
+- Business Analyst
+- ERP Specialist
+- Product Manager
+- Data Analyst
+
+Hardcore Coding Roles:
+- Full Stack Developer
+- App Developer
+- Cloud Engineer
+- AI/ML Engineer (with structured training)
+
+Guiding Message for B.Tech Students
+If aligned with your core branch:
+"Your domain knowledge places you in high-demand roles. You can evolve into specialized engineers, consultants, or researchers."
+
+If switching to IT:
+"IT welcomes engineers from all backgrounds. With your analytical mindset and structured thinking, you can transition into software, data, and tech roles through focused upskilling."

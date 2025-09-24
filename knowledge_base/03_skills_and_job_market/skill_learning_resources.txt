@@ -1,0 +1,127 @@
+🔹 Career → Skills → Resources Mapping
+
+1️⃣ Software Developer / Full Stack Developer
+
+Skills Needed: - Python, JavaScript, Java - HTML, CSS, React, Node.js -
+Databases (SQL, MongoDB)
+
+Resources: - YouTube: FreeCodeCamp (Full Stack Tutorials), Apna College,
+CodeWithHarry - Platforms: Coursera (Meta Front-End Developer), Udemy
+(Complete Web Dev Bootcamp), PW Skills, Scaler Academy
+
+---
+
+2️⃣ Data Analyst / Data Scientist
+
+Skills Needed: - Excel, SQL, PowerBI/Tableau - Python (Pandas, NumPy) -
+Machine Learning basics
+
+Resources: - YouTube: Alex The Analyst, Codebasics, Krish Naik -
+Platforms: Coursera (Google Data Analytics), Udemy (Data Analysis
+Bootcamp), PW Skills Data Science
+
+---
+
+3️⃣ Cybersecurity Analyst
+
+Skills Needed: - Networking basics - Security tools (Kali Linux,
+Wireshark) - Ethical Hacking fundamentals
+
+Resources: - YouTube: NetworkChuck, HackerSploit - Platforms: EC-Council
+courses, Coursera (IBM Cybersecurity), Simplilearn Cybersecurity
+
+---
+
+4️⃣ Cloud Engineer / DevOps
+
+Skills Needed: - AWS / Azure / GCP basics - Linux, Docker, Kubernetes -
+CI/CD pipelines
+
+Resources: - YouTube: TechWorld with Nana, FreeCodeCamp - Platforms: AWS
+Skill Builder, Coursera (Google Cloud), Udemy (AWS Certified Solutions
+Architect)
+
+---
+
+5️⃣ Business Analyst
+
+Skills Needed: - Excel, SQL, PowerBI - Documentation & Client
+Interaction - Agile/Scrum basics
+
+Resources: - YouTube: BA Guide, Analytics Vidhya - Platforms: Coursera
+(Business Analytics by Wharton), Udemy (Business Analyst Masterclass),
+Great Learning
+
+---
+
+6️⃣ UI/UX Designer
+
+Skills Needed: - Figma, Adobe XD - Wireframing, Prototyping -
+Human-Centered Design
+
+Resources: - YouTube: Flux Academy, DesignCourse - Platforms: Coursera
+(Google UX Design), Interaction Design Foundation, Udemy UX/UI Bootcamp
+
+---
+
+7️⃣ Journalist / Media Careers
+
+Skills Needed: - Writing, Video Editing - Public Speaking,
+Storytelling - Social Media handling
+
+Resources: - YouTube: ThinkSchool, Journalism Masterclass clips -
+Platforms: Coursera (Journalism Specialization), Skillshare
+(Storytelling), LinkedIn Learning
+
+---
+
+8️⃣ Chartered Accountant / Finance Roles
+
+Skills Needed: - Financial Analysis - Accounting Tools (Tally, SAP) -
+Taxation, Auditing
+
+Resources: - YouTube: CA Rachana Phadke Ranade, Neeraj Arora Classes -
+Platforms: ICAI official portal, Udemy (Finance Analyst courses),
+Coursera (Financial Accounting by UPenn)
+
+---
+
+9️⃣ Operations / Supply Chain / Production Analyst
+
+Skills Needed: - Supply Chain Management - ERP Tools (SAP, Oracle) -
+Lean Six Sigma basics
+
+Resources: - YouTube: SCM Talent Group, CareerVidz - Platforms: Coursera
+(Supply Chain by Rutgers), Udemy (Lean Six Sigma Green Belt), Skillshare
+
+---
+
+🔟 Minimal Coding Roles (QA, Testing, Tech Support)
+
+Skills Needed: - Manual & Automation Testing - Selenium / Postman
+basics - ITIL & Tech Documentation
+
+Resources: - YouTube: Software Testing Mentor, Guru99 - Platforms: Udemy
+(Automation Testing), Coursera (Software Testing by University of
+Minnesota)
+
+---
+
+1️⃣1️⃣ Entrepreneurship / Self-Employability
+
+Skills Needed: - Startup Building, Business Planning - Digital
+Marketing, Branding - Financial Management
+
+Resources: - YouTube: ThinkSchool, Bada Business (Dr. Vivek Bindra),
+Backstage with Millionaires - Platforms: Y Combinator Startup School
+(Free), Coursera (Entrepreneurship Specialization), Udemy (Digital
+Marketing & Entrepreneurship)
+
+---
+
+✅ LLM Logic (How it should work): 1. Detect career inclination from
+questionnaire → map to category. 2. Fetch skills required for that
+career. 3. Suggest YouTube channels (free, quick start). 4. Suggest
+Paid/Structured platforms (Coursera, Udemy, PW Skills, etc.) for deep
+learning. 5. If student specifies time/budget, adjust recommendations
+(free vs premium).
